@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 18px;">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title></title>
+	<style type="text/css">
+	body {
+		padding: 0;
+		margin: 0;
+	}
+		.wrap {
+			width: 375px;
+			margin: 0 auto;
+		}
+		input {
+			width: 350px;
+			height: 50px;
+			margin: 10px auto;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			display: block;
+			text-indent: 1em;
+		}
+	</style>
+<script type="text/javascript" src="../dist/breeze-area-0.0.0.min.js"></script></head>
+<body>
+	<div class="wrap">
+		<p>默认初始地区选择</p>
+		<input id="picker-date1" type="text" name="" readonly="readonly" placeholder="请选择地区">
+		<script type="text/javascript">
+			var config1 = {
+				target: "picker-date1",
+				type: "area",
+				ensureCallback: function(value) {
+					console.log(value);
+					return value;
+				}
+			};
+			new BreezeArea(config1);
+		</script>
+		<div style="height: 100px;"></div>
+		<p>自定义初始地区选择</p>
+		<input id="picker-date2" type="text" name="" readonly="readonly" placeholder="请选择地区">
+		<script type="text/javascript">
+			var config2 = {
+				target: "picker-date2",
+				type: "area",
+				currentValue: ['河南', '郑州', '金水'],
+				ensureCallback: function(value) {
+					console.log(value);
+					return value;
+				}
+			};
+			new BreezeArea(config2);
+		</script>
+	</div>
+</body>
+</html>

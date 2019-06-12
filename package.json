@@ -1,0 +1,22 @@
+{
+  "name": "breeze-area",
+  "version": "0.0.0",
+  "description": "This is a area plug-in based on native JavaScript developed.",
+  "main": "dist/breeze-area-0.0.0.min.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breeze55/breeze-area.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breeze55/breeze-area/issues"
+  },
+  "homepage": "https://github.com/breeze55"
+}
