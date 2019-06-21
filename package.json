@@ -1,6 +1,6 @@
 {
   "name": "breeze-area",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "This is a area plug-in based on native JavaScript developed.",
   "main": "dist/breeze-area-0.0.0.min.js",
   "directories": {

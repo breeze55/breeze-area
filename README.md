@@ -4,9 +4,7 @@
 
 ## 版本 
 
-[测试版本]
-
-0.0.0
+1.0.0
 
 ## 安装
 
@@ -20,7 +18,7 @@ npm install breeze-area --save
 直接使用script引用
 
 ```js
-<script src="../dist/breeze-area-0.0.0.min.js"></script>
+<script src="../dist/breeze-area-1.0.0.min.js"></script>
 ```
 
 ## 使用
